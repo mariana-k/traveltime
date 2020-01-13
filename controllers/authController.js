@@ -1,0 +1,4 @@
+exports.isLoggedIn = () => {
+  return true;
+};
+

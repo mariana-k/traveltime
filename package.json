@@ -4,10 +4,11 @@
   "description": "tours and events finder",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon server.js",
+    "start": "node server.js",
+    "start:dev": "nodemon server.js",
     "start:prod": "NODE_ENV=production nodemon server.js"
   },
-  "author": "Archil Lelashvili, Mariana Kyrkosh",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "dotenv": "^7.0.0",
